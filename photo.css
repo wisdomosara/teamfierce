@@ -1,0 +1,66 @@
+/* for Desktop and big screens */
+.items{
+    border:0.2px solid black;
+    border-radius: 20px;
+    margin-top:50px;
+    margin-left:5vw
+}
+.side{
+    background-color: #FF7A00 !important
+}
+button{
+    background-color: #FF7A00 !important
+}
+hr{
+    background-color:#FF7A00;
+    width:25%;
+}
+.para{
+    padding: 0 2.1vw !important
+}
+h4{
+    font-size:1.6vw
+}
+.para1{
+    padding:0 1vw
+}
+
+/* Small screen no side nav */
+@media only screen and (max-width:600px){
+    .items{
+        margin:20px 0 0 0;
+        width:100%;
+        padding:0 40px
+    }
+    .myflex{
+        padding:0 10vw
+    }
+    .para{
+        padding: 0 6vw !important
+    }
+    h4{
+        font-size: 30px
+    }
+    
+    .side{
+        display: none !important;
+    }
+}
+/* for tablets */
+@media only screen and (min-width:600px){
+    @media screen and (max-width:1250px){
+    .items{margin-left:4vw;
+        padding:0 4vw;
+    }
+    .myflex{
+        padding:0 1vw !important
+    }
+    h4{
+        font-size: 2.2vw !important
+    }
+    .para{
+        padding: 0 1vw !important;
+    }
+  }
+    
+}
