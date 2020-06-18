@@ -10,9 +10,7 @@ body{
     font-family: 'Quicksand', sans-serif !important;
 }
 .side{
-    background-color: #FF7A00;
-    height:100vh;
-    position:fixed !important
+    background-color: #FF7A00 !important
 }
 button{
     background-color: #FF7A00 !important
